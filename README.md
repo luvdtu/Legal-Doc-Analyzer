@@ -64,7 +64,13 @@ DB_PASSWORD=yourpassword
 DB_NAME=legal_documents_db
 ```
 
-4. **Run the application**
+4. **Create the MySQL database**
+- Make sure you have MySQL installed and running. Then run this command in your MySQL shell:
+```sql
+CREATE DATABASE legal_documents_db;
+```
+     
+5. **Run the application**
 ```bash
 streamlit run app.py
 ```
