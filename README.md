@@ -30,11 +30,8 @@ Legal Doc Analyzer is an AI-powered web application built with **Streamlit**, **
 📁 Legal-Doc-Analyzer
 │
 ├── app.py               # Streamlit app with complete tabbed interface
-├── main.py              # Minimal Streamlit version for quick testing
-├── analyze.py           # Handles AI interactions using Together.ai
 ├── extract.py           # PDF text extraction
 ├── database.py          # Save & fetch from MySQL
-├── streamlit .py        # Legacy version with embedded code (optional)
 ├── requirements.txt     # Python dependencies
 ├── .env.example         # Example for environment variables
 ├── LICENSE              # MIT License
